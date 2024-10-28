@@ -53,3 +53,26 @@ h1 span {
     height: 20px;
     margin-right: 15px;
 }
+
+form button {
+    display: block;
+    margin: 20px auto;
+    border-radius: 5px;
+    background: #fff;
+    min-width: 200px;
+    padding: 15px, 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 3px, 5px, rgba(0, 0, 0, 0.2);
+}
+
+form-button :hover {
+    background: #fafafa;
+}
+
+.results {
+    padding: 20px;
+    margin: 10px, 0px, 70px;
+    border-radius: 5px;
+}
